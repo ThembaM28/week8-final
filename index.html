@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src\style.css" />
+    <link rel="stylesheet" herf="
+    <link
+      href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script src=https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js></script>
+  </head>
+  <title>WEATHER</title>
+  <body >
+</div>
+    <div id="wrapper-bg"  class="card shadow-1"  >
+      <div class="container">
+      <div class="search">
+        <form id="search-form">
+          <div class="row">
+          <div class="col-9">
+        <input type="search" placeholder="enter city name"class="form-control" id="city-input" autocomplete="off"
+        spellcheck="false" /> 
+        <button>Search</button>
+        <div class="weather">
+          <div class="row-6" >
+        <div class=" col-6">
+          <div>
+             <span class= "units-temperature-active"><strong id="temperature"></strong>℃</span>
+          <h1 id="city"></h1>
+
+ </div>
+        </div>
+          </div>
+        <img src="" class="weather-icon"
+        id="icon"/>
+         <ul> <li id="description"></li></ul>
+      </div>
+        <div class="row-2">
+        <div class=" col-2">
+          <div class="clearfix weather-temperature">
+          <div class="float-left">
+           
+          <ul>
+          <li  class= "col-9"id="date"></li>
+        </ul> 
+         <div class="details">
+          <div class="top-right">
+            <img src="images\humidity 2.gif" width="100"  />
+            <div>
+              <p class="humidity"></p>
+              <p>Humidity:<span id="humidity"></span>%</p>
+            
+            <img src="images\wind2.gif" width="100"  />
+            <div>
+              <p class="wind"></p>
+              <p>Wind: <span id="wind"></span>km/h</p>
+</div>
+            </div>
+          </div>
+              </div>
+        </div>
+      </div>
+      </div>
+      </form>
+</div>
+</div>
+         </div>
+        
+     <div class="card-body" id="forecast">
+     </div>
+    
+            </div>
+           
+          </div>
+          
+        </div>
+        
+      </div>
+   </div>
+    </div>
+    <script src="src\apps.js"></script>
+  </body>
+</html>
