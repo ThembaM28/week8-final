@@ -11,7 +11,7 @@
   background-color: linear-gradient(135deg, #00feba, #5b548a);
   background-image: url(../images/awesome.gif);
   background-repeat: no-repeat;
-  height: 700px;
+  height: 680px;
   background-size: cover;
   justify-content: center;
   color: #00feba;
@@ -19,7 +19,7 @@
   background-size: 100%;
   background-attachment: fixed;
   border: 3px solid #00feba;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 card {
   text-align: right;
@@ -75,17 +75,14 @@ button {
 }
 .weather-icon {
   width: 200px;
-  size: 20;
-  margin-bottom: 0ch;
-  padding-left: 610px;
-  padding-bottom: 10px;
-  padding-top: -100px;
-  margin-bottom: 0ch;
+  size: 10;
+  padding-left: 580px;
 }
 .weather h1 {
   font-size: 60px;
   font-weight: 250;
   margin-top: -100px;
+  padding-bottom: -650px;
 }
 
 .weather strong {
